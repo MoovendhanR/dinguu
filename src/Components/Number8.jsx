@@ -15,7 +15,7 @@ const Number8 = () => {
   };
   return (
     <div>
-      <Box align="center" mt="20%">
+      <Box>
         <Button colorScheme="blue" onClick={handleClick}>
           Add Cart
         </Button>

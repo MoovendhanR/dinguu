@@ -18,7 +18,7 @@ const Number12 = () => {
     // }
 
   return (
-    <Box align='center' mt="20%">
+    <Box >
         <Button colorScheme='blue' onClick={handleClick} >Button</Button>
           <Text size="xxl" color={"red"}>{count}</Text>
     </Box>

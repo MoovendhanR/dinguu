@@ -28,7 +28,7 @@ const Number7 = () => {
 
   return (
     <>
-     <Box align='center' mt="20%">
+     <Box >
         <Button colorScheme='blue' onClick={handleClick} >Button</Button>
           <Text size="xxl" color={"red"}>{price.total}</Text>
     </Box>

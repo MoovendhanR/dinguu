@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Spacer, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 
 const Number1 = () => {
@@ -9,12 +9,11 @@ const Number1 = () => {
   };
   return (
     <>
-      <Box align="center" mt="20%">
+    <Spacer/>
         <Button colorScheme="blue" onClick={handleClick}>
           Button
         </Button>
         <PostBody id={id} />
-      </Box>
     </>
   );
 };
